@@ -1,28 +1,48 @@
-# VitePress 📝💨
-
-[![test](https://github.com/vuejs/vitepress/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/vuejs/vitepress/actions/workflows/test.yml)
-[![npm](https://img.shields.io/npm/v/vitepress/next)](https://www.npmjs.com/package/vitepress/v/next)
-[![nightly releases](https://img.shields.io/badge/nightly-releases-orange)](https://nightly.akryum.dev/vuejs/vitepress)
-[![chat](https://img.shields.io/badge/chat-discord-blue?logo=discord)](https://chat.vuejs.org)
-
 ---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
 
-VitePress is a Vue-powered static site generator and a spiritual successor to [VuePress](https://vuepress.vuejs.org), built on top of [Vite](https://github.com/vitejs/vite).
+hero:
+  name: "WeMC-Wiki"
+  text: "将WeMC放入锅中大火爆炒"
+  tagline: 持续更新 | 继续咕咕
+  image:
+    src: /WeMC.png
+    alt: WeMC
+  actions:
+    - theme: brand
+      text: 快速开始
+      link: /start
+    - theme: brand
+      text: 贡献列表
+      link: /writer
+    - theme: alt
+      text: 参考文献
+      link: /book
 
-## Documentation
-
-To check out docs, visit [vitepress.dev](https://vitepress.dev).
-
-## Changelog
-
-Detailed changes for each release are documented in the [CHANGELOG](https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md).
-
-## Contribution
-
-Please make sure to read the [Contributing Guide](https://github.com/vuejs/vitepress/blob/main/.github/contributing.md) before making a pull request.
-
-## License
-
-[MIT](https://github.com/vuejs/vitepress/blob/main/LICENSE)
-
-Copyright (c) 2019-present, Yuxi (Evan) You
+features:
+  - title: 详细
+    icon: "🤗"
+    details: 让你小白翻身变大佬
+  - title: 活跃
+    icon: "🎉"
+    details: 必始终保持最新更新
+  - title: 摆烂
+    icon: "😅"
+    details: 只不过有的时候开摆
+  - title: 和谐
+    icon: "💾"
+    details: 口水横飞的讨论环节
+  - title: 自由
+    icon: "🌎"
+    details: 您爱用就用不用拉倒
+  - title: 帕鲁
+    icon: "👋"
+    details: 欢迎反馈bug
+  - title: 趣味
+    icon: "🎮"
+    details: 谁还能有我们更有趣
+  - title: 安全
+    icon: "🔒"
+    details: 所有操作均经过实验
+---
