@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[开始阅读](http://tongtianyema.森.ink/3c3twiki/start.md)
+[开始阅读](http://tongtianyema.森.ink/3c3twiki/)
 
 </div>
 
